@@ -1,0 +1,74 @@
+<================Task0================>
+In this I have only printed the last and first record
+therefore worst case complexity is O(1)
+<=====================================>
+
+
+<================Task1===============>
+
+line : 22 		-> O(1)
+
+line : 26 & 
+       28 &
+       33 &
+       35 &
+       41 		-> O(1)		//According to Python wiki: 
+				  	Time complexity, set is 
+				  	implemented as a hash table. 
+				  	So you can expect to lookup/
+				  	insert/delete in O(1) average.
+				  	Unless your hash table's load
+				  	factor is too high, then you face 
+				  	collisions and O(n).And in our
+   				  	case the data set i small so we
+				  	can say that time complexity is O(n)
+line : 25 to 28,
+       32 to 41		-> O(n)
+
+worst case complexity is O(n)
+<====================================>
+
+
+<================Task2===============>
+
+Worst case complexity is O(n)
+
+line :25 to 34		-> O(n)		// set and put operations on dictionary is O(1)
+
+line: 38 		-> O(nlog(n))	// Python's built-in sorted() function
+					   runs on average in O(n log(n))
+<====================================>
+
+
+<================Task3===============>
+Task A:
+Worst case complexity is O(n*m+nlog(n))
+
+line :51 to 60		->O(m*n)	   // O(m*n) refers to the runnning time of 
+					   the boyer-moore-horspool Algorithm, 
+					   which finds all the occurrences of a 
+					   substring in a string. Python's str.
+					   find Method finds only one occurrence 
+					   of the substring, so it's (str.find) 
+					   will depend on the position of the first 
+					   occurrence of substring. Where n is the 
+					   length of string and m is the length 
+					   of substring
+
+Task B:
+Worst case complexity is O(n*m+nlog(n))		   // Where n is the 
+					   length of string and m is the length 
+					   of substring
+
+<====================================>
+
+
+<================Task4===============>
+
+Worst case complexity is O(nlog(n))
+
+<====================================>
+
+
+
+
